@@ -1,6 +1,7 @@
 # OSEP_PEN300
-学习笔记
-感谢 https://github.com/deletehead/pen_300_osep_prep 的syllabus
+被大佬忽悠报了名，2021给自己一点压力，由于是新课程，资料实在太少，开个荒。
+感谢thanks delethead 提供的syllabus
+https://github.com/deletehead/pen_300_osep_prep 
 
 ## Course Progress
 - [ ] Videos
@@ -10,19 +11,38 @@
 - [ ] Complete labs
 
 ## Syllabus
-- [ ] 1. Evasion Techniques and Breaching Defenses: General Course Information
-  - [ ] 1.1 About The PEN-300 Course
-  - [ ] 1.2 Provided Material
-  - [ ] 1.3 Overall Strategies for Approaching the Course
-  - [ ] 1.4 About the PEN-300 VPN Lab
-  - [ ] 1.5 About the OSEP Exam
-  - [ ] 1.6 Wrapping Up
-- [ ] 2. Operating System and Programming Theory
-  - [ ] 2.1 Programming Theory
-    - [ ] 2.1.1 Programming Language Level
-    - [ ] 2.1.2 Programming Concepts
+- [x] 1. Evasion Techniques and Breaching Defenses: General Course Information
+			OSEP课程主要介绍绕过防御的技巧，建议考过OSCP的同学报考。
+  - [x] 1.1 About The PEN-300 Course
+  			免杀，横向，域渗透，客户端代码执行。
+  - [x] 1.2 Provided Material
+  			同oscp，教材，视频，lab，考试机会。
+  			lab结束后最晚120天内报名考试。
+  - [x] 1.3 Overall Strategies for Approaching the Course
+  			无他，try harder。
+  			课程习题做完不加分。
+  - [x] 1.4 About the PEN-300 VPN Lab
+  			基本都是新机器，win10,server 2019,ubuntu 20.04
+  - [x] 1.5 About the OSEP Exam
+  			考试时间一共47小时45分，再加24小时写报告。
+  			考试通过是获取特殊网段权限或取得100分的单个机器。
+  			估计就是拿下所有外网机器或者通过外网机器进入内网横向最后拿到域管理员权限。
+  - [x] 1.6 Wrapping Up
+- [x] 2. Operating System and Programming Theory
+  - [x] 2.1 Programming Theory
+    - [x] 2.1.1 Programming Language Level
+    			CPU架构目前有两种，windows和linux操作系统基本是x86架构，手机和平板基本是ARM架构。
+    			机器语言：CPU使用操作码（opcode）进行运算。
+    			汇编语言：一系列操作码组成汇编语言。
+    			高级语言：
+    				面对对象语言：JAVA需要在虚拟机（JVM）中编译成字节码（bytecode）运行时虚拟机会将字节码编译成操作码（opcode）通过cpu进行运算。虚拟机会对运行内存进行保护。
+    - [x] 2.1.2 Programming Concepts
+    			面对对象
   - [ ] 2.2 Windows Concepts
     - [ ] 2.2.1 Windows on Windows
+    			WOW64: 让64位windows操作系统执行32位程序。
+    			对32位windows操作系统，原生32位windows程序存储在C:\Windows\System32。
+    			对64位windows操作系统，原生64位windows程序存储在C:\Windows\System32，32位版本存储在C:\Windows\SysWOW64。
     - [ ] 2.2.2 Win32 APIs
     - [ ] 2.2.3 Windows Registry
   - [ ] 2.3 Wrapping Up
@@ -453,3 +473,4 @@
 - [ ] 18 Trying Harder: The Labs
   - [ ] 18.1 Real Life Simulations
   - [ ] 18.2 Wrapping Up
+
