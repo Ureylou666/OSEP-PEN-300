@@ -12,15 +12,17 @@ https://github.com/deletehead/pen_300_osep_prep
 
 ## Syllabus
 - [x] 1. Evasion Techniques and Breaching Defenses: General Course Information
-
+	
 	OSEP课程主要介绍绕过防御的技巧，建议考过OSCP的同学报考。
   - [x] 1.1 About The PEN-300 Course
-  	免杀，横向，域渗透，客户端代码执行。
-  			
+  
+  	免杀，横向，域渗透，客户端代码执行。	
   - [x] 1.2 Provided Material
-  			同oscp，教材，视频，lab，考试机会。
-  			lab结束后最晚120天内报名考试。
+  
+  	同oscp，教材，视频，lab，考试机会。
+  	lab结束后最晚120天内报名考试。
   - [x] 1.3 Overall Strategies for Approaching the Course
+  
   			无他，try harder。
   			课程习题做完不加分。
   - [x] 1.4 About the PEN-300 VPN Lab
