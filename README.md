@@ -1,6 +1,5 @@
 # OSEP_PEN300
 被大佬忽悠报了名，2021给自己一点压力，由于是新课程，资料实在太少，开个荒。
-
 感谢thanks delethead 提供的syllabus
 https://github.com/deletehead/pen_300_osep_prep 
 
@@ -13,12 +12,10 @@ https://github.com/deletehead/pen_300_osep_prep
 
 ## Syllabus
 - [x] 1. Evasion Techniques and Breaching Defenses: General Course Information
-			
-			OSEP课程主要介绍绕过防御的技巧，建议考过OSCP的同学报考。
-			
+
+	OSEP课程主要介绍绕过防御的技巧，建议考过OSCP的同学报考。
   - [x] 1.1 About The PEN-300 Course
-  
-  			免杀，横向，域渗透，客户端代码执行。
+  	免杀，横向，域渗透，客户端代码执行。
   			
   - [x] 1.2 Provided Material
   			同oscp，教材，视频，lab，考试机会。
