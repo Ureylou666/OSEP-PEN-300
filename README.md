@@ -15,7 +15,6 @@ https://github.com/deletehead/pen_300_osep_prep
 # Syllabus
 
 ## Reference
-- 十种注入技巧:具有通用性的进程注入技巧研： https://bbs.pediy.com/thread-220500.htm
 - 
 
 ## 1. Evasion Techniques and Breaching Defenses: General Course Information
