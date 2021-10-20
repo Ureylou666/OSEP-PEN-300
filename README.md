@@ -4,6 +4,7 @@
 感谢thanks delethead 提供的syllabus
 https://github.com/deletehead/pen_300_osep_prep 
 
+![image](https://user-images.githubusercontent.com/75350727/138061431-1ed20864-fd04-4b06-a43d-2c7cff4604e5.png)
 
 https://www.t00ls.com/thread-62781-1-1.html
 
