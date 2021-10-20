@@ -1,4 +1,4 @@
-# OSEP_PEN300
+# OSEP_PEN 300 考试攻略
 
 被大佬忽悠报了名，2021给自己一点压力，由于是新课程，资料实在太少，开个荒。
 感谢thanks delethead 提供的syllabus
