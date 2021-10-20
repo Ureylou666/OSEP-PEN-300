@@ -6,6 +6,7 @@ https://github.com/deletehead/pen_300_osep_prep
 
 
 https://www.t00ls.com/thread-62781-1-1.html
+
 最近刚刚通过了OSEP的认证，整个备考过程中遇到不少问题，通过与小伙伴交流和自己的摸索终于通关。网上对于OSEP认证的中文介绍很少，也没看到详细攻略，由于是新课程，国内的资料实在太少，给坛子里红队大佬们，做个抛砖引玉，开个荒。
 也欢迎师傅加Discord Ureylou#4733沟通交流~
 
